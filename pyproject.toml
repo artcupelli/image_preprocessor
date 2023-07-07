@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "image_preprocessor"
+version = "0.0.1"
+authors = [
+  { name="Artur Cupelli", email="artur.cupelli@usp.br" },
+]
+description = "Image preprocessor library for OCR tools and data mining techniques."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/artcupelli/image_preprocessor"
+"Bug Tracker" = "https://github.com/artcupelli/image_preprocessor/issues"
