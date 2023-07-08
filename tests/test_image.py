@@ -1,9 +1,11 @@
+import sys
 import pytest
 from image_processor.image import Image
 
 
 class TestImageClass:
     def test_instance_with_path(self):
+        sys.path.append("../data")
         Image(path="data/photo_1.jpg")
 
     def test_instance_with_base64(self):
